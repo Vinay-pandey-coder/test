@@ -1,5 +1,4 @@
 import React from "react";
-import image from "./prot/image.png"
 const Product = ({ products, addToCart }) => {
   return (
     <div className="card">
@@ -14,7 +13,7 @@ const Product = ({ products, addToCart }) => {
         </div>
       ))}
 
-      <img src={image} width={50} height={50} alt="" />
+      <img src="/image/image.png" width={50} height={50} alt="" />
     </div>
   );
 };
